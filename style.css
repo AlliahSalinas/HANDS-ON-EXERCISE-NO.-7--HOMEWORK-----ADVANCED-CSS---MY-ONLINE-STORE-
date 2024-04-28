@@ -1,0 +1,104 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  }
+ 
+  body {
+    background-color: pink;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    border: 2px solid black; 
+    border-radius: 5px; 
+    padding: 5px; 
+  }
+  
+  h1, h2 {
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+  }
+  
+ 
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  
+  a:hover {
+    color: blue; 
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;  
+  }
+  
+  li {
+    display: inline;
+    margin: 10px;
+  }
+  
+ 
+  figcaption {
+    display: block;
+    padding: 5px;
+    text-align: center;
+  }
+  
+ 
+  del {
+    color: red;
+  }
+  
+ 
+  a[href="#top"]:active {
+    color: blue;
+  }
+  
+  
+  a:visited {
+    color: rgb(0, 0, 128); 
+  }
+  
+ 
+  a:active {
+    color: rgb(225, 0, 255);
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+
+  @media (max-width: 768px) {
+    
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    ul {
+      font-size: large;
+    }
+    li {
+      margin: 5px;
+    }
+  }
+  
